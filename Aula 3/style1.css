@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+}
+
+#logotipo {
+    max-width: 400px;
+    margin: 0;
+}
+
+
+header {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    border-color: 4px solid red;
+    text-align: center;
+}
+
+header p {
+font-family: "Jacquard 24";
+font-size: xx-large;
+}
