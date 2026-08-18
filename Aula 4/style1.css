@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --preto: #222;
+    --vermelho: red;
+    --branco:  rgba(255, 255, 255, 0.904);
+    --verde: rgb(48, 238, 48);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+}
+
+#logotipo {
+    max-width: 400px;
+    margin: 0;
+}
+
+
+header {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    border-color: 4px solid red;
+    text-align: center;
+}
+
+header p {
+font-family: "Jacquard 24";
+font-size: xx-large;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:"Jacquard 24" ;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: crimson;
+    color: antiquewhite;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    border-left: 5px solid blue;
+    padding-left: 10px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    background-color:  red;
+    color: antiquewhite;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+
+.letra-laranja{
+    color: orange;
+    font-weight: bold;
+}
+
+.tabela-edicoes th,
+.tabela-edicoes td{
+    border: 1px solid wheat;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+#divisao{
+    border: 10px solid rgb(83, 83, 245);
+}
+
+#topo{
+    color: white;
+    background-color: black;
+}
