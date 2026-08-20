@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Dungeon Delvers</title>
+</head>
+<body>
+<header>
+<img id="logotipo" src="media/dragao.jpg" alt="Logotipo Dungeon Delvers">
+<p>Enfrente o Dungeon. Salve o Reino!</p>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">O Jogo</a></li>
+        <li><a href="divulg.html">Versões</a></li>
+        <li><a href="contato.html">Contatos</a></li>
+    </ul>
+</nav>
+
+<main>
+
+
+<section>
+
+    <form action="#" method="post">
+
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome aqui"
+            >
+        </div>
+
+
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="exemplo@gmail.com"
+            >
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone (opcional)
+            </label>
+            <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="(21 90000-0000)"
+            pattern="\(?\d{2}\)?\s?\d{5,4}\-?\d{4}"
+            >
+        </div>
+
+        <div class="campo">
+        <label for="idade">Idade</label>
+        <input 
+        type="number"
+        id="idade"
+        name="idade"
+        min="16"
+        max="95"
+        >
+        </div>
+
+        <button type="submit">Entrar na lista de espera</button>
+
+        <button type="reset">Eliminar consulta</button>
+
+    </form>
+
+</section>
+
+</main>
+
+    
+</body>
+
+</html>

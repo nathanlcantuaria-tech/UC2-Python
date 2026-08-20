@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+}
+
+#logotipo {
+    max-width: 400px;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    border-color: 4px solid red;
+    text-align: center;
+}
+
+header p {
+    font-family: "Jacquard 24";
+    font-size: xx-large;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-family:"Jacquard 24" ;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: blueviolet;
+        padding: 6px 10px;
+        border-radius: 4px;
+    }
+
+    nav a:hover {
+        background-color: crimson;
+        color: antiquewhite;
+    }
+
+    section {
+        border: 2px solid gray;
+        margin: 150px;
+        padding: 60px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .campo {
+        margin-bottom: 25px;
+    }
+
+    .campo label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+    }
+
+    .campo input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        border: 3px solid black;
+        border-radius: 6px;
+        background-color: #fffaf0;
+        color: black;
+        font-size: 16px;
+    }
+
+    .campo input:focus {
+        outline: none;
+        border-color: crimson;
+        box-shadow: 0 0 8px rgba(220, 20, 60, 0.4);
+    }
+
+    

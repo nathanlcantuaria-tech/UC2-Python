@@ -110,3 +110,7 @@ footer {
     color: white;
     background-color: black;
 }
+section {
+    margin: 150px;
+    padding: 60px;
+}
