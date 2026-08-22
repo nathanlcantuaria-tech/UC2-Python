@@ -83,10 +83,11 @@ video {
 }
 
 footer {
-    background-color:  red;
-    color: antiquewhite;
-    padding: 15px 20px;
+    background-color: #222;
+    color: white;
     text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 

@@ -76,6 +76,67 @@
         <button type="submit">Entrar na lista de espera</button>
 
         <button type="reset">Eliminar consulta</button>
+        
+        
+        <div class="campo">
+            <label for="plataforma">Plataforma preferida</label>
+            <select id="plataforma" name="plataforma">
+              <option value="">Selecione...</option>
+              <option value="pc">PC</option>
+              <option value="playstation">PlayStation</option>
+              <option value="xbox">Xbox</option>
+              <option value="switch">Nintendo Switch</option>
+            </select>
+          </div>
+
+        <fieldset class="campo">
+            <legend>Já jogou algum roguelike antes?</legend>
+
+            <label for="roguelike-sim">
+                <input type="radio" id="roguelike-sim"
+                name="roguelike" value="sim">
+                Sim
+            </label>
+
+            <label for="roguelike-nao">
+                <input type="radio" id="roguelike-nao"
+                name="roguelike" value="nao">
+                Não
+            </label>
+        </fieldset>
+
+        <fieldset class="campo">
+            <legend>Preferências</legend>
+
+            <label for="novidades">
+                <input type="checkbox" id="novidades"
+                name="novidades" value="sim">
+                Aceito receber novidades por e-mail
+            </label>
+
+            <label for="beta">
+                <input type="checkbox" id="beta"
+                name="beta" value="sim">
+                Tenho interesse em participar do beta fechado
+            </label>
+
+            <div class="campo">
+                <label for="cor-favorita">Cor de armadura favorita</label>
+                <input type="color" id="cor-favorita"
+                name="cor-favorita" value="blue"> 
+            </div>
+
+            <div class="campo">
+                <label for="fanart">Envie uma fanart (opcional)</label>
+                <input type="file" id="fanart"
+                name="fanart" accept="image/*"> 
+            </div>
+
+            <div class="campo">
+                <label for="recado">Deixe um recado</label>
+                <textarea id="recado" name="recado" rows="4"
+                placeholder="O que você mais espera do jogo?"></textarea>
+            </div>
 
     </form>
 
@@ -83,6 +144,9 @@
 
 </main>
 
+<footer>
+    <p>Dungeon Delvers — todos os direitos reservados</p>
+  </footer>
     
 </body>
 
