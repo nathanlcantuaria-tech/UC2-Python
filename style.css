@@ -1,0 +1,277 @@
+/* ============================================================
+   IDENTIDADE VISUAL — GALERIA URBANA
+   ============================================================ */
+
+/* Cores principais
+   Fundo neutro para não competir com as obras.
+   Grafite para os textos.
+   Terracota como cor de destaque.
+*/
+
+:root {
+    --fundo: #f2f0eb;
+    --fundo-secundario: #e7e3dc;
+    --texto: #292929;
+    --titulo: #1f1f1f;
+    --destaque: #9b5a45;
+    --branco: #ffffff;
+}
+
+
+/* ============================================================
+   CONFIGURAÇÕES GERAIS
+   ============================================================ */
+
+body {
+    margin: 0;
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   TOPO
+   ============================================================ */
+
+.topo {
+    background-color: var(--fundo-secundario);
+    color: var(--titulo);
+    padding: 60px 0;
+    border-bottom: 1px solid #d5d0c8;
+}
+
+.topo h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.topo p {
+    margin: 0;
+    color: #66605a;
+    font-size: 1.1rem;
+}
+
+
+/* ============================================================
+   TÍTULOS
+   ============================================================ */
+
+h1,
+h2,
+h3 {
+    color: var(--titulo);
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-left: 5px solid var(--destaque);
+    padding-left: 15px;
+}
+
+h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+}
+
+
+/* ============================================================
+   MENU
+   ============================================================ */
+
+.menu {
+    background-color: #292929;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+}
+
+.menu a {
+    color: #f2f0eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #c98b73;
+}
+
+
+/* ============================================================
+   GALERIA
+   ============================================================ */
+
+.obra {
+    height: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.obra img {
+    width: 100%;
+    display: block;
+}
+
+.obra h3,
+.obra p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.obra p {
+    color: #666;
+}
+
+
+/* ============================================================
+   INFORMAÇÃO
+   ============================================================ */
+
+.informacao {
+    margin: 60px 0;
+    padding: 40px;
+    background-color: var(--fundo-secundario);
+    border-left: 5px solid var(--destaque);
+}
+
+.informacao h2 {
+    margin-top: 0;
+    border-left: 0;
+    padding-left: 0;
+}
+
+.informacao a {
+    color: var(--destaque);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.informacao a:hover {
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   FORMULÁRIO
+   ============================================================ */
+
+form {
+    max-width: 700px;
+    margin-bottom: 60px;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--texto);
+    font: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--destaque);
+    box-shadow: 0 0 0 2px rgba(155, 90, 69, 0.15);
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--destaque);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7f4635;
+}
+
+
+/* ============================================================
+   RODAPÉ
+   ============================================================ */
+
+.rodape {
+    margin-top: 60px;
+    padding: 30px 0;
+    background-color: #292929;
+    color: #f2f0eb;
+}
+
+.rodape p {
+    margin: 0 0 5px;
+}
+
+.rodape a {
+    color: #c98b73;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   RESPONSIVIDADE
+   ============================================================ */
+
+@media (max-width: 767px) {
+
+    .topo {
+        padding: 40px 0;
+    }
+
+    .topo h1 {
+        font-size: 2.2rem;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .informacao {
+        padding: 25px;
+    }
+}
